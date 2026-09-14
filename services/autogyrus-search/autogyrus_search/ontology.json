@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "body_synonyms": {"suv": "SUV", "sport utility vehicle": "SUV", "sedan": "Sedan", "truck": "Truck", "pickup": "Truck", "coupe": "Coupe", "minivan": "Van", "van": "Van", "hatchback": "Hatchback", "wagon": "Wagon"},
+  "body_style_groups": {"suv": "SUV", "sport utility": "SUV", "sedan": "Sedan", "4dr car": "Sedan", "pickup": "Truck", "short bed": "Truck", "standard bed": "Truck", "double cab": "Truck", "coupe": "Coupe", "convertible": "Convertible", "minivan": "Van", "mini-van, passenger": "Van", "van": "Van", "hatchback": "Hatchback", "wagon": "Wagon"},
+  "fuel_synonyms": {"hybrid": "Hybrid", "plug-in hybrid": "Plug-in Hybrid", "electric": "Electric", "ev": "Electric", "diesel": "Diesel", "gasoline": "Gasoline"},
+  "drive_synonyms": {"awd": "AWD", "all wheel drive": "AWD", "4wd": "4WD", "four wheel drive": "4WD", "fwd": "FWD", "rwd": "RWD"},
+  "feature_synonyms": {"heated seats": "heated seats", "blind spot monitoring": "blind spot monitoring", "blind-spot monitoring": "blind spot monitoring", "child seat anchors": "child seat anchors", "isofix": "child seat anchors", "backup camera": "backup camera", "sunroof": "sunroof", "remote start": "remote start"},
+  "intent_phrases": {"family": ["family", "kids", "children"], "winter": ["winter", "snow", "cold weather"], "fuel_efficiency": ["fuel efficient", "fuel-efficient", "commuting", "commuter", "low fuel"], "reliability": ["reliable", "reliability"], "maintenance_cost": ["cheap to maintain", "low maintenance", "first car"], "cargo_space": ["cargo", "storage", "luggage"], "future_value": ["resale", "future value", "depreciation"], "towing": ["towing", "tow trailer"]},
+  "family_profile": {"minimum_seating_offset": 0, "preferred_seating_offset": 1, "preferred_body_styles": ["SUV", "Van", "Wagon", "Sedan"], "safety_feature_terms": ["airbag", "blind spot", "child seat", "isofix", "collision"], "rear_access_feature_terms": ["rear door", "rear seat"], "cargo_weight": 0.5, "safety_weight": 1.0, "rear_access_weight": 0.6, "reliability_weight": 0.5, "preferred_seating_weight": 0.7, "coupe_penalty": 1.5},
+  "winter_profile": {"preferred_drivetrains": ["AWD", "4WD"], "feature_terms": ["heated seats", "block heater", "winter tires", "remote start"]},
+  "city_coordinates": {"edmonton": [53.5461, -113.4938], "calgary": [51.0447, -114.0719], "red deer": [52.2681, -113.8112], "lethbridge": [49.6956, -112.8451]},
+  "availability_values": ["in stock", "available", "published", "active"],
+  "ranking_weights": {"semantic": 0.30, "keyword": 0.12, "exact_entity": 0.12, "features": 0.10, "intent_profile": 0.15, "price_value": 0.05, "mileage": 0.04, "location": 0.04, "freshness": 0.03, "reliability": 0.02, "winter": 0.02, "future_value": 0.01}
+}
