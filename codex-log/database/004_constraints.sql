@@ -1,0 +1,8 @@
+-- AutoGyrus v1.0
+-- Module 004: Constraint hardening
+--
+-- The LocalWP MySQL engine rejects additional CHECK constraints on columns
+-- that participate in SET NULL foreign keys. All production constraints remain
+-- embedded inline in the CREATE TABLE statements in modules 001 through 003.
+--
+-- No additional post-create constraints are applied in this deployment bundle.
