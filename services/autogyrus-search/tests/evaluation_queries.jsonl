@@ -1,0 +1,100 @@
+{"query": "SUV under $20,000", "expected": {"hard_filters": {"max_price": 20000}}}
+{"query": "Toyota under $25,000", "expected": {"hard_filters": {"max_price": 25000}}}
+{"query": "family van under $30,000", "expected": {"hard_filters": {"max_price": 30000}}}
+{"query": "used truck under $35,000", "expected": {"hard_filters": {"max_price": 35000}}}
+{"query": "hybrid SUV under $40,000", "expected": {"hard_filters": {"max_price": 40000}}}
+{"query": "sedan under $45,000", "expected": {"hard_filters": {"max_price": 45000}}}
+{"query": "RAV4 under $50,000", "expected": {"hard_filters": {"max_price": 50000}}}
+{"query": "AWD vehicle under $55,000", "expected": {"hard_filters": {"max_price": 55000}}}
+{"query": "Honda under $60,000", "expected": {"hard_filters": {"max_price": 60000}}}
+{"query": "commuter car under $65,000", "expected": {"hard_filters": {"max_price": 65000}}}
+{"query": "RAV4 below 20,000 km", "expected": {"hard_filters": {"max_mileage_km": 20000}}}
+{"query": "Civic below 30,000 km", "expected": {"hard_filters": {"max_mileage_km": 30000}}}
+{"query": "SUV below 40,000 km", "expected": {"hard_filters": {"max_mileage_km": 40000}}}
+{"query": "Toyota below 50,000 km", "expected": {"hard_filters": {"max_mileage_km": 50000}}}
+{"query": "Honda below 60,000 km", "expected": {"hard_filters": {"max_mileage_km": 60000}}}
+{"query": "truck below 70,000 km", "expected": {"hard_filters": {"max_mileage_km": 70000}}}
+{"query": "RAV4 below 80,000 km", "expected": {"hard_filters": {"max_mileage_km": 80000}}}
+{"query": "AWD vehicle below 90,000 km", "expected": {"hard_filters": {"max_mileage_km": 90000}}}
+{"query": "sedan below 100,000 km", "expected": {"hard_filters": {"max_mileage_km": 100000}}}
+{"query": "family car below 120,000 km", "expected": {"hard_filters": {"max_mileage_km": 120000}}}
+{"query": "2016 or newer SUV", "expected": {"hard_filters": {"min_year": 2016}}}
+{"query": "2017 or newer Toyota", "expected": {"hard_filters": {"min_year": 2017}}}
+{"query": "2018 or newer Civic", "expected": {"hard_filters": {"min_year": 2018}}}
+{"query": "2019 or newer truck", "expected": {"hard_filters": {"min_year": 2019}}}
+{"query": "2020 or newer sedan", "expected": {"hard_filters": {"min_year": 2020}}}
+{"query": "2021 or newer hybrid", "expected": {"hard_filters": {"min_year": 2021}}}
+{"query": "2022 or newer RAV4", "expected": {"hard_filters": {"min_year": 2022}}}
+{"query": "2023 or newer Honda", "expected": {"hard_filters": {"min_year": 2023}}}
+{"query": "2024 or newer Outback", "expected": {"hard_filters": {"min_year": 2024}}}
+{"query": "2025 or newer family vehicle", "expected": {"hard_filters": {"min_year": 2025}}}
+{"query": "Find a Toyota RAV4", "expected": {"hard_filters": {"make": "Toyota", "model": "RAV4"}}}
+{"query": "Show me a used Toyota RAV4", "expected": {"hard_filters": {"make": "Toyota", "model": "RAV4"}}}
+{"query": "Find a Honda Civic", "expected": {"hard_filters": {"make": "Honda", "model": "Civic"}}}
+{"query": "Show me a used Honda Civic", "expected": {"hard_filters": {"make": "Honda", "model": "Civic"}}}
+{"query": "Find a Ford F-150", "expected": {"hard_filters": {"make": "Ford", "model": "F-150"}}}
+{"query": "Show me a used Ford F-150", "expected": {"hard_filters": {"make": "Ford", "model": "F-150"}}}
+{"query": "Find a Subaru Outback", "expected": {"hard_filters": {"make": "Subaru", "model": "Outback"}}}
+{"query": "Show me a used Subaru Outback", "expected": {"hard_filters": {"make": "Subaru", "model": "Outback"}}}
+{"query": "Find a Mazda CX-5", "expected": {"hard_filters": {"make": "Mazda", "model": "CX-5"}}}
+{"query": "Show me a used Mazda CX-5", "expected": {"hard_filters": {"make": "Mazda", "model": "CX-5"}}}
+{"query": "A car for a family of 4", "expected": {"hard_filters": {"min_seating": 4}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Good car for a family of 4", "expected": {"hard_filters": {"min_seating": 4}, "soft_preferences": {"family_suitability": true}}}
+{"query": "A SUV for a family of 5", "expected": {"hard_filters": {"min_seating": 5}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Good SUV for a family of 5", "expected": {"hard_filters": {"min_seating": 5}, "soft_preferences": {"family_suitability": true}}}
+{"query": "A van for a family of 6", "expected": {"hard_filters": {"min_seating": 6}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Good van for a family of 6", "expected": {"hard_filters": {"min_seating": 6}, "soft_preferences": {"family_suitability": true}}}
+{"query": "A vehicle for a family of 7", "expected": {"hard_filters": {"min_seating": 7}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Good vehicle for a family of 7", "expected": {"hard_filters": {"min_seating": 7}, "soft_preferences": {"family_suitability": true}}}
+{"query": "A family van for a family of 8", "expected": {"hard_filters": {"min_seating": 8}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Good family van for a family of 8", "expected": {"hard_filters": {"min_seating": 8}, "soft_preferences": {"family_suitability": true}}}
+{"query": "Reliable vehicle for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "SUV for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Family car for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Toyota for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Used truck for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Honda for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Affordable car for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "AWD vehicle for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Commuter car for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "RAV4 for Alberta winter", "expected": {"soft_preferences": {"winter_suitability": true}}}
+{"query": "Fuel-efficient car for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel efficient SUV for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel-efficient Toyota for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel efficient Honda for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel-efficient commuter for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel efficient sedan for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel-efficient hybrid for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel efficient RAV4 for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel-efficient family car for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Fuel efficient AWD vehicle for commuting", "expected": {"soft_preferences": {"fuel_efficiency": true}}}
+{"query": "Vehicle near Edmonton within 10 km", "expected": {"hard_filters": {"city": "Edmonton", "radius_km": 10.0}}}
+{"query": "Vehicle near Edmonton within 20 km", "expected": {"hard_filters": {"city": "Edmonton", "radius_km": 20.0}}}
+{"query": "Vehicle near Edmonton within 30 km", "expected": {"hard_filters": {"city": "Edmonton", "radius_km": 30.0}}}
+{"query": "Vehicle near Edmonton within 40 km", "expected": {"hard_filters": {"city": "Edmonton", "radius_km": 40.0}}}
+{"query": "Vehicle near Edmonton within 50 km", "expected": {"hard_filters": {"city": "Edmonton", "radius_km": 50.0}}}
+{"query": "Vehicle near Calgary within 15 km", "expected": {"hard_filters": {"city": "Calgary", "radius_km": 15.0}}}
+{"query": "Vehicle near Calgary within 25 km", "expected": {"hard_filters": {"city": "Calgary", "radius_km": 25.0}}}
+{"query": "Vehicle near Calgary within 35 km", "expected": {"hard_filters": {"city": "Calgary", "radius_km": 35.0}}}
+{"query": "Vehicle near Calgary within 45 km", "expected": {"hard_filters": {"city": "Calgary", "radius_km": 45.0}}}
+{"query": "Vehicle near Calgary within 60 km", "expected": {"hard_filters": {"city": "Calgary", "radius_km": 60.0}}}
+{"query": "SUV with heated seats", "expected": {"hard_filters": {"required_features": ["heated seats"]}}}
+{"query": "Toyota with blind spot monitoring", "expected": {"hard_filters": {"required_features": ["blind spot monitoring"]}}}
+{"query": "RAV4 with sunroof", "expected": {"hard_filters": {"required_features": ["sunroof"]}}}
+{"query": "Honda with remote start", "expected": {"hard_filters": {"required_features": ["remote start"]}}}
+{"query": "Family car with backup camera", "expected": {"hard_filters": {"required_features": ["backup camera"]}}}
+{"query": "Hybrid SUV with heated seats", "expected": {"hard_filters": {"required_features": ["heated seats"]}}}
+{"query": "Commuter car with blind spot monitoring", "expected": {"hard_filters": {"required_features": ["blind spot monitoring"]}}}
+{"query": "Truck with sunroof", "expected": {"hard_filters": {"required_features": ["sunroof"]}}}
+{"query": "Used vehicle with remote start", "expected": {"hard_filters": {"required_features": ["remote start"]}}}
+{"query": "AWD car with backup camera", "expected": {"hard_filters": {"required_features": ["backup camera"]}}}
+{"query": "SUV without Diesel", "expected": {"excluded_values": {"fuel_types": ["Diesel"]}}}
+{"query": "truck without Ford", "expected": {"excluded_values": {"makes": ["Ford"]}}}
+{"query": "car without Coupe", "expected": {"excluded_values": {"body_styles": ["Coupe"]}}}
+{"query": "hybrid without Honda", "expected": {"excluded_values": {"makes": ["Honda"]}}}
+{"query": "Toyota without Diesel", "expected": {"excluded_values": {"fuel_types": ["Diesel"]}}}
+{"query": "family car without Coupe", "expected": {"excluded_values": {"body_styles": ["Coupe"]}}}
+{"query": "sedan without Ford", "expected": {"excluded_values": {"makes": ["Ford"]}}}
+{"query": "used SUV without Diesel", "expected": {"excluded_values": {"fuel_types": ["Diesel"]}}}
+{"query": "commuter without Coupe", "expected": {"excluded_values": {"body_styles": ["Coupe"]}}}
+{"query": "AWD vehicle without Honda", "expected": {"excluded_values": {"makes": ["Honda"]}}}
